@@ -1,18 +1,12 @@
-import './App.css'
-import Button from '@mui/material/Button'
+import { Container } from '@mui/material';
+import Board from './pages/Boards/_id';
 
 function App() {
-
   return (
     <>
-      <div>
-        <Button variant="contained">Contained</Button>
-        <Button variant="outlined">Outlined</Button>
-        <Button variant="text">Text</Button>
-      </div>
-     
+      <Board />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -22,13 +22,6 @@ module.exports = {
     'react/prop-types': 0,
     'react/display-name': 0,
 
-    "no-restricted-imports": [
-      "error",
-      {
-        "patterns": ["@mui/*/*/*"]
-      }
-    ],
-    
     'no-console': 1,
     'no-lonely-if': 1,
     'no-unused-vars': 1,
@@ -38,7 +31,7 @@ module.exports = {
     'space-before-blocks': ['error', 'always'],
     'object-curly-spacing': [1, 'always'],
     'indent': ['warn', 2],
-    'semi': ['error', 'never'],
+    'semi': [1, 'never'],
     'quotes': ['error', 'single'],
     'array-bracket-spacing': 1,
     'linebreak-style': 0,
@@ -46,7 +39,6 @@ module.exports = {
     'keyword-spacing': 1,
     'comma-dangle': 1,
     'comma-spacing': 1,
-    'prettier.semi': false,
     'arrow-spacing': 1
   }
 }
